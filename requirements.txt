@@ -1,1 +1,4 @@
+1. need to have requests installed:
+- pip install -r requirements.txt
+
 
