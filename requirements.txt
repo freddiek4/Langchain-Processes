@@ -1,4 +1,6 @@
 1. need to have requests installed:
 - pip install -r requirements.txt
 
-
+gemini model activation:
+- python gemini_api.py
+- add api key here
