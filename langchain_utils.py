@@ -1,8 +1,10 @@
+# utility functions that I may or may not use later
 import hashlib
 import json
 from functools import lru_cache
 
 def preprocess_text(text):
+    # " Hello World " → "hello world"
     return ' '.join(text.strip().lower().split())
 
 def generate_hash(text):
